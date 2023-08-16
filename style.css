@@ -53,3 +53,33 @@ header{
     background-color: #fff;
     border: 1px solid #F15B22;
 }
+
+/* failure styles */
+.failure{
+    width: 80%;
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+.image, .content{
+    width: 30%;
+}
+.failure-title{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 800;
+}
+.failure li{
+    margin: 10px 0;
+    color: #444343;
+    font-size: 16px;
+
+}
+.failure li i{
+    color: #16D887;
+    font-size: 16px;
+}
